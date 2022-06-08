@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem 'fastlane', "~> 2"
+gem 'fastlane', '~> 2', '>= 2.197.0'
 gem 'nokogiri'
 
 plugins_path = File.join(File.dirname(__FILE__), 'fastlane', 'Pluginfile')
